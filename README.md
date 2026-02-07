@@ -2,16 +2,26 @@
 
 **Growing Smarter Every Day!**
 
-SmartSprout is a fun, interactive learning app for kids that teaches English, Grammar, Maths, Science, Geography, History, and more through sentence-building exercises. Built with React, TypeScript, and TailwindCSS.
+SmartSprout is a fun, interactive learning app for kids — including those with autism and learning disabilities — that teaches English, Grammar, Maths, Science, Geography, History, and more through sentence-building exercises. Built with React, TypeScript, and TailwindCSS.
 
 ---
 
 ## Features
 
-- **110+ Lessons** across 45+ categories
+- **140+ Lessons** across 55+ categories
+- **Autism & Learning Disability Friendly**: Social scripts, sensory words, routines, calm-down strategies, and safety phrases designed with evidence-based approaches
 - **Grade-based Maths** (Grade 1–10): Counting, algebra, trigonometry, and more
 - **Grade-based English** (Grade 1–10): Alphabet, grammar, essay writing, poetry analysis
 - **Science, Geography & History** lessons covering Solar System, Ireland, Europe, India
+- **Social Scripts**: Asking for help, taking turns, saying no nicely, joining games, and waiting patiently
+- **Feelings & Body Signals**: Recognising emotions, body signals, calm-down words, and sensory overload language
+- **Safety Words**: Emergency phrases, name & address, stranger safety
+- **Sensory Words**: Describing what you see, hear, touch, smell, and taste
+- **Phonics & Sound Patterns**: Letter sounds, short/long vowels, consonant blends, and word families
+- **Routines & Sequencing**: Step-by-step routines using first/then/last language
+- **Choice Making**: Expressing wants, preferences, and favourites
+- **Cause & Effect**: Because/so, predictions, before/after
+- **Predictable Patterns**: "I can...", "I see a...", "The ___ is ___" — repetitive frames that build confidence
 - **Brain Training** exercises for concentration and memory
 - **Everyday Words & Conversations** for practical language skills
 - **Interactive sentence builder** with drag-and-drop word tiles
