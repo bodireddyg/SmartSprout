@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', system-ui, sans-serif;
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f4f8 50%, #f0fdf4 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+/* Smooth transitions for all interactive elements */
+button, .card {
+  transition: all 0.3s ease;
+}
+
+/* Custom scrollbar - gentle and non-distracting */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f7ff;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8dbff;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7ac0ff;
+}
+
+/* Gentle pulse animation for hints */
+@keyframes gentle-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+}
+
+.gentle-pulse {
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+/* Floating animation for decorative elements */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Star burst animation for rewards */
+@keyframes star-burst {
+  0% { transform: scale(0) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1.2) rotate(180deg); opacity: 1; }
+  100% { transform: scale(1) rotate(360deg); opacity: 1; }
+}
+
+.star-burst {
+  animation: star-burst 0.6s ease-out forwards;
+}
+
+/* Word tile hover effect */
+.word-tile {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.word-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 132, 255, 0.2);
+}
+
+.word-tile:active {
+  transform: translateY(0px);
+}
+
+/* Sentence slot styling */
+.sentence-slot {
+  min-height: 56px;
+  border: 3px dashed #b8dbff;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.sentence-slot.has-words {
+  border-style: solid;
+  border-color: #7ac0ff;
+  background: white;
+}
+
+/* Category card */
+.category-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
